@@ -12,6 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+      <link rel="icon" href="./ramadhanhub.svg"></link>
       <link href="https://fonts.cdnfonts.com/css/ramadhan" rel="stylesheet"></link>
       </head>
       <body className={inter.className}>{children}</body>
