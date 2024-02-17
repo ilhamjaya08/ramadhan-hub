@@ -1,5 +1,6 @@
 import Image from "next/image";
 import "./globals.css";
+import Countdown from "../components/pages/Countdown"
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         />
       </div>
       
+      <Countdown />
 
       <div className="relative flex place-items-center">
         <h2 className="text-4xl font-ramadhan text-orange-500">
